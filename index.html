@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .dflex{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        lottie-player{
+                border: 1px solid #ccc;
+                padding: 1rem;
+            }
+    </style>
 </head>
 <body>
-    <lottie-player src="./FiAnotherTryLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    <div class="dflex">
+        <lottie-player src="./FiAnotherTryLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     <lottie-player src="./FiBuildingSiteLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     <lottie-player src="./FiDocumentsLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     <lottie-player src="./FiMoneyGiftLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
@@ -19,6 +35,6 @@
     <lottie-player src="./FiSendInfoLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     <lottie-player src="./FiSentLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     <lottie-player src="./FiWarningLight.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-
+    </div>
 </body>
 </html>
